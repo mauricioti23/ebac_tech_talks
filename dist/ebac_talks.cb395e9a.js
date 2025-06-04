@@ -1,0 +1,2 @@
+AOS.init();let dataDoEvento=new Date("Dec 12, 2025 19:00:00"),timeStampDoEvento=dataDoEvento.getTime(),contaAsHoras=setInterval(function(){let e=timeStampDoEvento-new Date().getTime(),t=Math.floor(e/864e5),o=Math.floor(e%864e5/36e5),a=Math.floor(e%36e5/6e4),n=Math.floor(e%6e4/1e3);document.getElementById("contador").innerHTML=`${t}d ${o}h ${a}m ${n}s`},1e3);
+//# sourceMappingURL=ebac_talks.cb395e9a.js.map

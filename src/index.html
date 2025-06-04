@@ -12,19 +12,70 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 
 <body>
 
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
+            <img class="hero__logo" src="./images/niverlogo.jpg" alt="EBAC">
             <p class="hero__text">
-                O maior evento de tecnologia do Brasil começa em 10d 12h 15s
+                O aniversário da pessoa mais legal do mundo começa em <span id="contador"></span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Bar Bonito e Barato - Bela Vista - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        Rodízio de bebidas a partir de R$70,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        22/12/2022 às 20h
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
         </div>
     </header>
 
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre o Aniversariante</h2>
+                <p class="event__details__description">Maurício Souza Vasconcelos é uma pessoa ... amet consectetur adipisicing elit. Nam quo at voluptate perferendis quia ex magni totam rerum distinctio repellendus sint eos quibusdam repellat aut, itaque aperiam, maxime architecto aliquid.</p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="Sobre aniversariante">
+        </div>
+    </section>
+
+    <section class="event event--ui-ux event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre o local do aniversário</h2>
+                <p class="event__details__description">O bar Bonito e Barato é um lugar ... amet consectetur adipisicing elit. Nam quo at voluptate perferendis quia ex magni totam rerum distinctio repellendus sint eos quibusdam repellat aut, itaque aperiam, maxime architecto aliquid.</p>
+            </div>
+            <img class="event__image" src="./images/sobreolocal.jpg" alt="Local">
+        </div>
+    </section>
+
+     <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Sugestão de presentes</h2>
+                <p class="event__details__description">O Maurício gosta de presentes simples, de coração ... amet consectetur adipisicing elit. Nam quo at voluptate perferendis quia ex magni totam rerum distinctio repellendus sint eos quibusdam repellat aut, itaque aperiam, maxime architecto aliquid.</p>
+            </div>
+            <img class="event__image" src="./images/presentes.jpg" alt="Presentes">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 
